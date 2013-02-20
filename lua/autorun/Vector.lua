@@ -2,7 +2,11 @@
 -- Its main reason for existance is to speed up garrysmod's slow c functions in LuaJIT.
 -- However it works in normal lua too!
 -- By Gordon MacPherson with assistance of divran.
+
 local MATH = {}
+
+-- This allows the library to be used in every type of lua instance not just garrysmod.
+-- provided you move files around to the correct order of course.
 
 MATH.Garrysmod = (VERSION ~= nil)
 
@@ -18,7 +22,7 @@ if( MATH.Garrysmod ) then
 	-- Include the files serverside.
 	MATH.Serverside = true
 
-
+	-- Are we using garrysmod Lua or normal Lua?
 	if( MATH.Garrysmod ) then
 		if MATH.VectorEnabled then
 			-- Serverside Includes.
@@ -36,6 +40,7 @@ if( MATH.Garrysmod ) then
 			end
 		end
 	else
+		-- if we are using normal lua.
 		if MATH.VectorEnabled then
 			dofile("Vector3")
 		end
