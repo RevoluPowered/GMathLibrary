@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"        "Vector Library Replacement"
+	"version"     "1.00"
+	"author_name" "Gordon M"
+	"author_url"  ""
+	"info"        "A replacement for garry's vector library."
+	"override"    "0"
+}
