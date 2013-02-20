@@ -154,14 +154,14 @@ function vector_mt:Garry()
 	return Vector( self.x, self.y, self.z )
 end
 
-local garry = FindMetaTable( "Vector" )
-function vector_mt:__index( key ) 
-	if vector_mt[key] ~= nil then 
-		return vector_mt[key] 
-	else
-		return garry[key] 
-	end
-end
+--local garry = FindMetaTable( "Vector" )
+--function vector_mt:__index( key ) 
+--	if vector_mt[key] ~= nil then 
+--		return vector_mt[key] 
+--	else
+--		return garry[key] 
+--	end
+--end
 
 
 --[[
