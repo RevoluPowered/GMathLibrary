@@ -149,23 +149,6 @@ function vector_mt:Distance( vector )
 	return vec:Length()
 end
 
-
--- MAKE ANGLE TYPE.
--- REPLACE:ANGLE
--- The above is for when I've got a angle and quaternion type availible.
-function vector_mt:Angle( vector )
-	print("Angle is currently disabled.")
-	return new(0,0,0)
-end
-
--- Rotate vector by angle.
--- I'm going to be adding quaternions and matricies.
--- So fuck these functions until i make the base for the others.
-function vector_mt:Rotate( vector, angle )
-	print("Rotate is disabled.")
-	return new(0,0,0)
-end
-
 -- This is for garrysmod only.
 function vector_mt:Garry()
 	return Vector( self.x, self.y, self.z )
