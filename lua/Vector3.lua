@@ -149,11 +149,13 @@ function vector_mt:Distance( vector )
 	return vec:Length()
 end
 
--- This is for garrysmod only.
+-- Returns a garry vector for his functions.
 function vector_mt:Garry()
 	return Vector( self.x, self.y, self.z )
 end
 
+-- If by any chance my vector library doesn't have a specific function
+-- you can simply uncomment this and use garrys!
 --local garry = FindMetaTable( "Vector" )
 --function vector_mt:__index( key ) 
 --	if vector_mt[key] ~= nil then 
