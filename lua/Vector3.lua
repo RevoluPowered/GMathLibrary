@@ -169,8 +169,8 @@ end
 	However I feel 2D vectors should be made as there own type.
 
 	Vector:Length2D -- Will be Vector2:Length2D()
-	Vector:Length2DSqr -- No longer required due to LuaJIT.
-	Vector:LengthSqr -- No longer required due to LuaJIT.
+	Vector:Length2DSqr -- Not Added.
+	Vector:LengthSqr -- Not Added.
 	Vector:Rotate -- Should exist when angle and quaternions are done.
 ]]
   
