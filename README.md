@@ -12,7 +12,7 @@ This will include the following features:
 - Documentation and Examples.
 
 License:
-
+===
 GMathLibrary by Gordon A. MacPherson is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
 Permissions beyond the scope of this license may be available at revolupowered@googlemail.com. 
 
