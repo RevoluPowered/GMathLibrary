@@ -1,9 +1,9 @@
 "AddonInfo"
 {
-	"name"        "Vector Library Replacement"
-	"version"     "1.00"
-	"author_name" "Gordon M"
-	"author_url"  ""
-	"info"        "A replacement for garry's vector library."
+	"name"        "GMathLibrary"
+	"version"     "0.0.1"
+	"author_name" "Gordon A. MacPherson"
+	"author_url"  "https://github.com/RevoluPowered/GMathLibrary"
+	"info"        "I don't like slow things."
 	"override"    "0"
 }
