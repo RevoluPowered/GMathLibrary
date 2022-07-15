@@ -1,19 +1,12 @@
 GMathLibrary
 ======================
 
-A mathematical overhaul for the garrysmod source implementation of vectors and rotations.
+A tiny vector math lib for the garrysmod source implementation of vectors and rotations.
+- Has optional code for copying unsupported functions from garrysmod.
 
-This will include the following features:
-- Quaternions.
-- Angles.
-- Transforms.
-- Vector2,3,4's.
-- Standard Format.
-- Documentation and Examples.
+Why was this made?
+- It can allow JIT optimizations for the vector type since it becomes native to luajit. There is a performance penalty in luajit for not having the implementation in lua itself as it has to drop out of the JIT context to poll back into C code.
 
 License:
 ===
-GMathLibrary by Gordon A. MacPherson is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
-Permissions beyond the scope of this license may be available at revolupowered@googlemail.com. 
-
-http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB
+MIT License - or original license from commits. you can pick either.
